@@ -1,0 +1,74 @@
+/* Header CSS */
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: beige;
+    position: sticky;
+}
+
+.logo-container{
+    max-width: 5rem;
+    border: 1px  solid;
+}
+
+#logo-img{
+    width: 5rem;
+}
+.nav-Items > ul{
+    display: flex;
+}
+
+.nav-Items > ul > li {
+    margin-left: 10px;
+    font-size: 20px;
+    list-style: none;
+    margin-top: 30px;
+    padding: 0px 10px;
+}
+
+/* Body CSS */
+.search{
+    display:flex;
+    justify-content: space-between;
+}
+.search-textbox{
+    width: 25rem;
+    height: 2rem;
+}
+
+/* Card CSS */
+.body-res-card{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.res-card{
+    border-radius: 10px;
+    border: 1px solid #b9b6b36b;
+    width: 17rem ;
+    height: 23rem;
+    margin: 1rem;
+}
+
+.res-card:hover{
+    box-shadow: 4px 3px 4px rgba(205, 205, 202, 0.726);
+    transition:ease-in-out;
+    border: 1px solid;
+}
+
+.res-card-content{
+   display:inherit;
+   margin: 10px;
+   padding-left: 10px;
+}
+
+#card-img{
+    display: inherit;
+    width: 17rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+.title{
+    font-size:25px;
+    color: #632e00;
+}
